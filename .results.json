@@ -1,102 +1,27 @@
 {
   "stats": {
-    "suites": 4,
-    "tests": 6,
-    "passes": 6,
+    "suites": 0,
+    "tests": 0,
+    "passes": 0,
     "pending": 0,
-    "failures": 0,
-    "start": "2022-05-10T08:26:50.403Z",
-    "end": "2022-05-10T08:26:50.905Z",
-    "duration": 502
+    "failures": 1,
+    "start": "2022-08-15T07:09:06.590Z",
+    "end": "2022-08-15T07:09:11.665Z",
+    "duration": 5075
   },
-  "tests": [
+  "tests": [],
+  "pending": [],
+  "failures": [
     {
-      "title": "is set as Scuber",
-      "fullTitle": "index.js companyName is set as Scuber",
-      "duration": 0,
+      "title": "\"before all\" hook",
+      "fullTitle": "\"before all\" hook",
+      "duration": 5030,
       "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "is defined as a const",
-      "fullTitle": "index.js companyName is defined as a const",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "is declared as equal to Chelsea",
-      "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "is defined using let",
-      "fullTitle": "index.js mostProfitableNeighborhood is defined using let",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "is declared as equal to Susan Smith",
-      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "is defined using let",
-      "fullTitle": "index.js companyCeo is defined using let",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {}
+      "err": {
+        "stack": "Error: Timeout of 5000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves.\n    at Object.done (node_modules/mocha-jsdom/index.js:70:7)\n    at /home/njmwas/fi/phase-1-javascript-variables-lab-test/node_modules/jsdom/lib/jsdom.js:312:18\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)",
+        "message": "Timeout of 5000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves."
+      }
     }
   ],
-  "pending": [],
-  "failures": [],
-  "passes": [
-    {
-      "title": "is set as Scuber",
-      "fullTitle": "index.js companyName is set as Scuber",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "is defined as a const",
-      "fullTitle": "index.js companyName is defined as a const",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "is declared as equal to Chelsea",
-      "fullTitle": "index.js mostProfitableNeighborhood is declared as equal to Chelsea",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "is defined using let",
-      "fullTitle": "index.js mostProfitableNeighborhood is defined using let",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "is declared as equal to Susan Smith",
-      "fullTitle": "index.js companyCeo is declared as equal to Susan Smith",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "is defined using let",
-      "fullTitle": "index.js companyCeo is defined using let",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {}
-    }
-  ]
+  "passes": []
 }
